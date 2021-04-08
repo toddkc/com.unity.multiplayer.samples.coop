@@ -51,6 +51,7 @@ MonoBehaviour:
   m_BatchMode: 1
   m_SendQueueBatchSize: 4096
   m_BatchedTransportEventCode: 129
+  m_KickEventCode: 130
 --- !u!1 &3591499506183471245
 GameObject:
   m_ObjectHideFlags: 0
@@ -178,6 +179,8 @@ MonoBehaviour:
     - BossRoom
     - PostGame
     - Startup
+    - 
+    - Startup_VR
     AllowRuntimeSceneChanges: 1
     NetworkPrefabs:
     - Prefab: {fileID: 6009713983291384756, guid: 8237adf32a9b6de4892e6febe6b4bdef, type: 3}
