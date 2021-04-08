@@ -23,6 +23,7 @@ namespace BossRoom.Scripts.Editor
         {
             get
             {
+                //EditorPrefs.DeleteKey(k_BootstrapSceneKey);
                 if (!EditorPrefs.HasKey(k_BootstrapSceneKey))
                 {
                     EditorPrefs.SetString(k_BootstrapSceneKey, EditorBuildSettings.scenes[0].path);
