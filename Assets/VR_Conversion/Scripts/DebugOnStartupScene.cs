@@ -1,3 +1,6 @@
+/// <summary>
+/// Used to confirm the new startup scene was used.
+/// </summary>
 namespace XRConversion
 {
     using UnityEngine;

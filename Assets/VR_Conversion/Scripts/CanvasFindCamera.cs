@@ -1,3 +1,6 @@
+/// <summary>
+/// Attach to a canvas to find and set the camera.
+/// </summary>
 namespace XRConversion
 {
     using UnityEngine;
